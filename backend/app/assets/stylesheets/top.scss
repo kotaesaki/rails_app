@@ -2,6 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-p{
-  color: #730E15;
+.hoge{
+  margin: 2rem;
+  p{
+    color: #730E15;
+    font-size: 2rem;
+  }
 }
