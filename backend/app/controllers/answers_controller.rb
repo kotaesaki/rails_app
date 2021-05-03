@@ -15,7 +15,6 @@ class AnswersController < ApplicationController
       redirect_to question_path(@question), notice: '回答を変更しました'
     else
       redirect_to question_path(@question), alert: '回答の変更に失敗しました'
-      
     end
   end
   def edit
